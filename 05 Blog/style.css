@@ -1,0 +1,65 @@
+.bgImg {
+  /* background-image: url(img/sea_horizon_bw_137654_1920x1080-1536x864.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e7e7e7;
+}
+
+.cardTitlec {
+  position: relative;
+}
+
+.cardTitle {
+  position: absolute;
+  bottom: 150px;
+  left: 16px;
+}
+
+.cardmss {
+  height: 250px;
+  background-color: #d6d6d6;
+}
+.cardmss::after {
+  content: "+";
+  display: inline-block;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  cursor: pointer;
+}
+
+.cardmss::after:hover {
+  box-shadow: 5px 10px 8px #d6d6d6 !important;
+  background-color: black;
+}
+
+.cardmss2 {
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.cardmss2Text {
+  background-color: #d6d6d6;
+}
+
+.cardmssh {
+  top: 40%;
+}
+
+.cardmssp {
+  bottom: 5px;
+}
+
+.cardBg {
+  height: 200px;
+  background-color: black;
+}
+
+.cardBg h1 {
+  font-weight: 400;
+}
